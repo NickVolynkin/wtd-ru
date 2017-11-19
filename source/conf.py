@@ -45,9 +45,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Write the Docs Russia'
-copyright = u'2017, Nick Volynkin'
-author = u'Nick Volynkin'
+project = u'Русскоязычное сообщество Write the Docs'
+copyright = u'2017, Русскоязычное сообщество Write the Docs'
+author = u'Русскоязычное сообщество Write the Docs'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -64,7 +64,7 @@ release = u'1'
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 language = 'ru'
-
+html_search_language = 'ru'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
@@ -95,6 +95,7 @@ html_theme = 'alabaster'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static', '_static/css']
 
+html_title = u'Русскоязычное сообщество Write the Docs'
 
 # -- Options for HTMLHelp output ------------------------------------------
 
