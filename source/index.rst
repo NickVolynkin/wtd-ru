@@ -29,6 +29,11 @@
 
 ..  _docfactor-17: http://docfactor.ru/
 
+Анкета
+------
+
+https://goo.gl/forms/9CCnTjo0bK7AyOFV2
+
 ..  toctree::
     :hidden:
 
