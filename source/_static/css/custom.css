@@ -1,11 +1,14 @@
-body,
-div.sphinxsidebar h3,
-div.sphinxsidebar h4,
-div.body h1,
-div.body h2,
-div.body h3,
-div.body h4,
-div.body h5,
-div.body h6 {
-    font-family: 'Open Sans', Roboto, sans-serif;
+div.body h1 {
+    margin-bottom: 10pt;
+    padding-bottom: 10pt;
+    font-size: 350%;
+}
+div.body h2 { font-size: 250%; }
+div.body h3 { font-size: 180%; }
+div.body h4 { font-size: 130%; }
+div.body h5 { font-size: 100%; }
+div.body h6 { font-size: 100%; }
+
+li.toctree-l1 {
+    padding-bottom: 7pt;
 }

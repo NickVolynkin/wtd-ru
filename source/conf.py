@@ -76,7 +76,6 @@ pygments_style = 'sphinx'
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 
-
 # -- Options for HTML output ----------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
@@ -87,21 +86,37 @@ html_theme = 'alabaster'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#
-# html_theme_options = {}
+
+html_theme_options = {
+    'logo': 'wtd-logo.png',
+    'github_button': True,
+    'github_user': 'NickVolynkin',
+    'github_repo': 'wtd-ru',
+    'font_family': 'Noto Serif, serif',
+    'head_font_family': '"Montserrat", sans-serif',
+    'link': '#0000BB',
+    'link_hover': '#0000FF',
+}
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static', '_static/css']
-
 html_title = u'Русскоязычное сообщество Write the Docs'
 
+
+html_sidebars = {
+    '**': [
+        'about.html',
+        'navigation.html',
+        'searchbox.html',
+    ]
+}
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'WritetheDocsRussiadoc'
-
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -131,7 +146,6 @@ latex_documents = [
      u'Nick Volynkin', 'manual'),
 ]
 
-
 # -- Options for manual page output ---------------------------------------
 
 # One entry per manual page. List of tuples
@@ -140,7 +154,6 @@ man_pages = [
     (master_doc, 'writethedocsrussia', u'Write the Docs Russia Documentation',
      [author], 1)
 ]
-
 
 # -- Options for Texinfo output -------------------------------------------
 
@@ -152,6 +165,3 @@ texinfo_documents = [
      author, 'WritetheDocsRussia', 'One line description of project.',
      'Miscellaneous'),
 ]
-
-
-
