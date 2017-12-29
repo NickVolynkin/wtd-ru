@@ -31,8 +31,6 @@
 ..  _docfactor: http://docfactor.ru/
 
 
----------
-
 ..  toctree::
     :hidden:
 
